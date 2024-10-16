@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color:rgb(246, 230, 230) ;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    font-size:15px;
+    margin-right: 30px;
+}
+
+.mainphoto{
+    background-image: url('https://images.unsplash.com/photo-1728931710024-c015ea8f4414?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D');
+    background-size: 100%;
+    background-image: cover;
+    height: 300px;
+    background-position: center;
+    display: flex;
+    padding: 20px 90px;
+    justify-content: center;
+}
+.logo{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.logobox{
+    background-color: black;
+    height: 40px;
+}
+
+.h3{
+    color: rgb(181, 165, 165);
+    align-items: center;
+    justify-content: center;
+}
+.start{
+    margin-left: 90px;
+    margin-right:90px;
+}
+.aa{
+    padding-left: 700px;
+}
+.pp{
+    padding-left: 690px;
+}
+.h4{
+    margin-left: 450px;
+}
+.h3{
+    margin-left: 500px;
+}
+.photo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phph{
+    height: 400px;
+    margin-left: 450px;
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+.text{
+    width: 50%;
+    line-height: 1.6;
+    margin-right: 400px;
+    
+}
